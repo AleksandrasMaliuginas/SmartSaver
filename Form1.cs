@@ -61,4 +61,14 @@ namespace SmartSaver
            // Months = Goal/(Input - Expenses);
            // MessageBox.Show(goalName + " remaining time is " + Months.ToString() + " months");
     }
+    
+            private void button2_Click(object sender, EventArgs e)
+        {
+          int Input, Expenses, Goal, Months;
+          String goalName = goalNameBox.Text;
+          //Goal = int.Parse(goalMoney.Text);
+         // Months = Goal/(Input - Expenses);
+         // MessageBox.Show(goalName + " remaining time is " + Months.ToString() + " months");
+         this.Close();
+        }
 }
