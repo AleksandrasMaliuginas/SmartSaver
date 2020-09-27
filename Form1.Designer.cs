@@ -32,7 +32,7 @@ namespace SmartSaver
         {
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.myBudgetButton = new System.Windows.Forms.Button();
+            this.addTransactiontButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -59,22 +59,22 @@ namespace SmartSaver
             this.textBox1.Text = "Upload a Bank transaction statment";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // myBudgetButton
+            // addTransactiontButton
             // 
-            this.myBudgetButton.Location = new System.Drawing.Point(591, 84);
-            this.myBudgetButton.Name = "myBudgetButton";
-            this.myBudgetButton.Size = new System.Drawing.Size(94, 61);
-            this.myBudgetButton.TabIndex = 2;
-            this.myBudgetButton.Text = "My Budget";
-            this.myBudgetButton.UseVisualStyleBackColor = true;
-            this.myBudgetButton.Click += new System.EventHandler(this.myBudgetButton_Click);
+            this.addTransactiontButton.Location = new System.Drawing.Point(591, 84);
+            this.addTransactiontButton.Name = "addTransactiontButton";
+            this.addTransactiontButton.Size = new System.Drawing.Size(94, 61);
+            this.addTransactiontButton.TabIndex = 2;
+            this.addTransactiontButton.Text = "Add Transaction";
+            this.addTransactiontButton.UseVisualStyleBackColor = true;
+            this.addTransactiontButton.Click += new System.EventHandler(this.myBudgetButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 338);
-            this.Controls.Add(this.myBudgetButton);
+            this.Controls.Add(this.addTransactiontButton);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -90,7 +90,7 @@ namespace SmartSaver
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button myBudgetButton;
+        private System.Windows.Forms.Button addTransactiontButton;
 
   
     }
