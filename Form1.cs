@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 
@@ -52,6 +53,12 @@ namespace SmartSaver
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void myBudgetButton_Click(object sender, EventArgs e)
+        {
+            Form2 newWindow = new Form2();
+            newWindow.Show();
         }
     }
 }
